@@ -1,0 +1,7 @@
+# Use PHP55
+AddType application/x-httpd-php55 .php
+<IfModule mod_suphp.c>
+suPHP_ConfigPath /opt/php55/lib
+</IfModule>
+
+

@@ -1,0 +1,1 @@
+[22-May-2016 15:34:05 America/Chicago] PHP Strict Standards:  Non-static method Misc::randCode() should not be called statically in /home2/masterzu/public_html/rack-a-tack.club/support/gensalt.php on line 5

@@ -1,0 +1,69 @@
+[25-May-2016 00:17:38 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 81
+[25-May-2016 00:19:11 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 81
+[25-May-2016 00:19:12 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 81
+[25-May-2016 00:20:20 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 82
+[25-May-2016 00:20:37 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 82
+[25-May-2016 00:21:56 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 82
+[25-May-2016 00:22:58 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 83
+[25-May-2016 00:23:29 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 83
+[25-May-2016 00:23:36 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 83
+[25-May-2016 00:25:09 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 83
+[25-May-2016 00:25:12 America/Chicago] PHP Fatal error:  Function name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 83
+[25-May-2016 00:26:54 America/Chicago] PHP Fatal error:  Method name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 95
+[25-May-2016 00:26:59 America/Chicago] PHP Fatal error:  Method name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 95
+[25-May-2016 00:28:14 America/Chicago] PHP Fatal error:  Method name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 95
+[25-May-2016 00:33:19 America/Chicago] PHP Fatal error:  Method name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 96
+[25-May-2016 00:33:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 84
+[25-May-2016 00:34:32 America/Chicago] PHP Fatal error:  Method name must be a string in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 96
+[25-May-2016 23:33:58 America/Chicago] PHP Warning:  Missing argument 2 for getStaff(), called in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 196 and defined in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 63
+[25-May-2016 23:33:58 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 78
+[04-Jun-2016 13:10:55 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/index.php on line 33 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 2
+[04-Jun-2016 13:50:52 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 176 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[04-Jun-2016 13:50:52 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 176 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[04-Jun-2016 13:53:24 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/ranking.php on line 84 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[04-Jun-2016 13:55:45 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/ranking.php on line 84 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[04-Jun-2016 13:56:16 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/staff.php on line 176 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[04-Jun-2016 23:10:51 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[06-Jun-2016 11:24:04 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[09-Jun-2016 12:56:59 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[09-Jun-2016 12:56:59 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[11-Jun-2016 00:56:29 America/Chicago] PHP Fatal error:  Call to undefined function cleaning() in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 2
+[11-Jun-2016 01:07:24 America/Chicago] PHP Fatal error:  Call to undefined function getTourneyInfo() in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 102
+[13-Jun-2016 02:58:19 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[14-Jun-2016 13:47:03 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[16-Jun-2016 23:46:16 America/Chicago] PHP Warning:  Missing argument 3 for registerForTourney(), called in /home2/masterzu/public_html/rack-a-tack.club/tourney_check.php on line 139 and defined in /home2/masterzu/public_html/rack-a-tack.club/tourney_check.php on line 22
+[16-Jun-2016 23:46:16 America/Chicago] PHP Fatal error:  Call to a member function query() on string in /home2/masterzu/public_html/rack-a-tack.club/tourney_check.php on line 25
+[17-Jun-2016 05:00:42 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[17-Jun-2016 19:42:40 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[19-Jun-2016 21:40:24 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[20-Jun-2016 15:53:19 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[20-Jun-2016 15:53:40 America/Chicago] PHP Warning:  Missing argument 1 for menu(), called in /home2/masterzu/public_html/rack-a-tack.club/register.php on line 144 and defined in /home2/masterzu/public_html/rack-a-tack.club/nav.php on line 11
+[20-Jun-2016 18:03:07 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 01:37:42 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 02:15:25 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 02:15:42 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 02:17:40 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 02:17:47 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 02:17:50 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[24-Jun-2016 02:17:52 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[25-Jun-2016 00:10:25 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[25-Jun-2016 00:10:41 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 49
+[25-Jun-2016 00:56:11 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 00:58:03 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 00:58:35 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:10:44 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:10:55 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:13:22 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:13:26 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:13:33 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:17:31 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:17:34 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:19:38 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 50
+[25-Jun-2016 01:25:33 America/Chicago] PHP Fatal error:  Call to undefined function getUsername() in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 55
+[26-Jun-2016 01:39:04 America/Chicago] PHP Fatal error:  Call to undefined function getTournamentRulesID() in /home2/masterzu/public_html/rack-a-tack.club/tourney.php on line 141
+[09-Oct-2017 04:05:30 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'masterzu_TourMan'@'localhost' (using password: YES) in /home1/junodr/public_html/__Ryan-Sites/rack-a-tack.club/db_connect.php on line 19
+[09-Oct-2017 04:05:30 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'masterzu_TourMan'@'localhost' (using password: YES) in /home1/junodr/public_html/__Ryan-Sites/rack-a-tack.club/db_connect.php on line 19
+[09-Oct-2017 04:05:30 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'masterzu_TourMan'@'localhost' (using password: YES) in /home1/junodr/public_html/__Ryan-Sites/rack-a-tack.club/db_connect.php on line 19
+[09-Oct-2017 04:05:31 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'masterzu_TourMan'@'localhost' (using password: YES) in /home1/junodr/public_html/__Ryan-Sites/rack-a-tack.club/db_connect.php on line 19
+[09-Oct-2017 10:41:29 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'masterzu_TourMan'@'localhost' (using password: YES) in /home1/junodr/public_html/__Ryan-Sites/rack-a-tack.club/db_connect.php on line 19
+[21-Jan-2018 18:59:36 America/Chicago] PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /home1/junodr/public_html/__Ryan-Sites/rack-a-tack.club/db_connect.php on line 19

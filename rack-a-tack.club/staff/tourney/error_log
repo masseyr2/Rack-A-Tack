@@ -1,0 +1,2 @@
+[14-Dec-2016 22:57:37 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/staff/tourney/TourneyCollection.php on line 76
+[14-Dec-2016 23:02:02 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home2/masterzu/public_html/rack-a-tack.club/staff/tourney/TourneyCollection.php on line 76

@@ -1,0 +1,51 @@
+<div class="3u 12u(mobile)">
+
+									<!-- Feature #1 -->
+										<section>
+											<a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
+											<h2>Welcome to Rack-A-Tack</h2>
+											<p>
+												This is an Online tournament system, where you'll find a lot of fun twists and games that'll make these tournaments ones to remember. 
+											</p>
+											<p>
+												If you like a simple system for registering tournaments, and an easy system to navigate, You've found the place to join!
+											</p>
+										</section>
+
+								</div>
+								<div class="3u 12u(mobile)">
+
+									<!-- Feature #2 -->
+										<section>
+											<a href="#" class="bordered-feature-image"><img src="images/pic02.jpg" alt="" /></a>
+											<h2>Top 10 Players By Rating</h2>
+											<p>
+												 
+											</p>
+										</section>
+
+								</div>
+								<div class="3u 12u(mobile)">
+
+									<!-- Feature #3 -->
+										<section>
+											<a href="#" class="bordered-feature-image"><img src="images/pic03.jpg" alt="" /></a>
+											<h2>Top 10 with most Tournament Wins</h2>
+											<p>
+												 
+											</p>
+										</section>
+
+								</div>
+								<div class="3u 12u(mobile)">
+
+									<!-- Feature #4 -->
+										<section>
+											<a href="#" class="bordered-feature-image"><img src="images/pic04.jpg" alt="" /></a>
+											<h2>Upcoming Tournaments</h2>
+											<p>
+												 
+											</p>
+										</section>
+
+								</div>
