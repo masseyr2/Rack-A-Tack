@@ -4,13 +4,16 @@
 	$tempPassword = cleaning($_POST["password"]);
 	$tempPassword = md5($tempPassword);
 	
+
+
 	if((strcmp($_SESSION["member_logged_in"],"yes") == 0))
 	{
 		?> <META HTTP-EQUIV="Refresh"
           CONTENT="1; URL=http://rack-a-tack.club/"><?
 	}
 	else
-	{ 
+	{
+		
 		$queryCheck = "SELECT * FROM Users WHERE LeagueID = 1 AND Username = '". $tempUsername. "' AND Password = '". $tempPassword."'";
 		
 		$results = $dbc->query($queryCheck);
@@ -29,6 +32,7 @@
 	 <META HTTP-EQUIV="Refresh"
           CONTENT="1; URL=http://rack-a-tack.club/">
 	  <?PHP
+		
 	}
 ?>
 <head>

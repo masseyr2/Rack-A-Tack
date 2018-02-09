@@ -150,7 +150,7 @@
 												<h3>Create Your Account</h3>
 											</header>
 											<p>
-												 <form action="OwnerCreation.php" method="post" style="width:50%; margin-left:auto;margin-right:auto; display:block;">  
+												 <form action="memberRegistration.php" method="post" style="width:50%; margin-left:auto;margin-right:auto; display:block;">  
 													<span>Username</span><br>
 													<input type="text" name="Username" id="username" required><p></p>
 													<span>Password</span><br>
