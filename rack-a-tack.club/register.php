@@ -3,6 +3,37 @@
 	include("db_connect.php");
  ?>
 <?PHP 
+
+	 if(isset($_POST['submit'])) 
+	 {
+		$NewUsername = cleaning($_POST['Username']);
+		
+		$usernameCheck = "SELECT * FROM Users Where Username = '". $NewUsername. "'";
+		$r = $dbc->query($usernameCheck);
+		
+		
+		
+		$NewPassword = md5(cleaning($_POST['Password']));
+		$NewLeagueID = $LeagueID;
+		
+		$NewEMail = cleaning($_POST['EMail']);
+		$NewUserQuery = "INSERT INTO Users (LeagueID, Username, Password, EMail) VALUES($NewLeagueID ,'$NewUsername','$NewPassword','$NewEMail')";
+		
+		$_SESSION['Username'] = $NewUsername;
+		$_SESSION['EMail'] = $NewEMail;
+		$_SESSION['LeagueID'] = $NewLeagueID;
+		
+		$dbc->query($NewUserQuery); 
+		if($dbc->error) { echo $dbc->error;}
+		else 
+		{
+			echo "<a href='memberLogin.html'><div id='Nextstep'>Thanks for registering, You can now login!</div></a>";
+			 //header("Location: LeagueCreation.php");  
+		}
+		
+	 } 
+	 
+									
 	/* foreach ($_POST as $key => $val) { $t = $key; $$t = $val;
 		// echo "POST -- KEYS = " . $t . "AND Values = " . $$t . "<br>";
 		$tempK = strtolower($t);
@@ -82,6 +113,8 @@
 		*/
 	 }
 	 
+	 
+	
 	
 	?>
 <!DOCTYPE HTML>
@@ -125,30 +158,7 @@
 							<div class="row">
 								<div class="12u">
 
-	<?PHP
-	 if(isset($_POST['cleared'])) 
-	 {
-		$NewUsername = cleaning($_POST['Username']);
-		$NewPassword = md5(cleaning($_POST['Password']));
-		$NewLeagueID = $LeagueID;
-		
-		$NewEMail = cleaning($_POST['EMail']);
-		$NewUserQuery = "INSERT INTO Users (LeagueID, Username, Password, EMail) VALUES($NewLeagueID ,'$NewUsername','$NewPassword','$NewEMail')";
-		
-		$_SESSION['Username'] = $NewUsername;
-		$_SESSION['EMail'] = $NewEMail;
-		$_SESSION['LeagueID'] = $NewLeagueID;
-		
-		$dbc->query($NewUserQuery); 
-		if($dbc->error) { echo $dbc->error;}
-		else 
-		{
-			echo "<a href='memberLogin.html'><div id='Nextstep'>Thanks for registering, You can now login!</div></a>";
-			 //header("Location: LeagueCreation.php");  
-		}
-	 } else {
-	 
-									?>
+	
 									<!-- Main Content -->
 										<section>
 											<header>
@@ -159,6 +169,8 @@
 												 <form action="register.php" method="post" style="">  
 													<span>Username</span><br>
 													<input type="text" name="Username" id="username" required><p></p>
+													
+													<?php echo $errorUser ?>
 													<span>Password</span><br>
 													<input type="password" name="Password" id="Password" required><p></p> 
 													<span>Password Again</span><br>
@@ -166,11 +178,11 @@
 													<p></p>
 													<span>EMail</span><br>
 													<input type="email" name="email" id="email" required><p></p>
-													<input type="hidden" name="cleared" value="submit">
-													<input type="submit" name="submit" value="Register">  
+													
+													<button id = "submitButton" type="submit" name="submit">Register</button>  
 												 </form> 
 										</section>
-		<?PHP  } ?>
+		
 								</div>
 							</div>
 						</div>
