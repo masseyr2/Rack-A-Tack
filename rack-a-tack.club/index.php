@@ -61,7 +61,7 @@
 										$banner ='<!-- Banner Copy -->
 										<p>Do you like playing word board games with twists? Do you like competitions? </p>
 										<a href="register.php" class="button-big">Register</a>
-										<a href="memberLogin.html" class="button-big">Login</a>';
+										<a href="memLogin.php" class="button-big">Login</a>';
 									} 
 									 echo $banner;
 									

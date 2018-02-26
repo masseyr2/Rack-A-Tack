@@ -12,25 +12,57 @@
 		$r = $dbc->query($usernameCheck);
 		
 		
-		
 		$NewPassword = md5(cleaning($_POST['Password']));
 		$NewLeagueID = $LeagueID;
-		
+		$NewPassword2 = md5(cleaning($_POST['PasswordAgain']));
 		$NewEMail = cleaning($_POST['EMail']);
 		$NewUserQuery = "INSERT INTO Users (LeagueID, Username, Password, EMail) VALUES($NewLeagueID ,'$NewUsername','$NewPassword','$NewEMail')";
+		
+		function isInvalidUsername($tempUsername)
+		{
+			global $dbc;
+			
+			$r = $dbc->query("SELECT * FROM Users Where Username = '". $tempUsername. "'");
+			
+			if(mysqli_num_rows($r) != 0)
+			{
+				return true;
+			}
+			
+			return false;
+			
+		}
+		
+		function isMatchingPassword($tempPassword, $tempPassword2)
+		{
+			if($tempPassword == $tempPassword2)
+				return true;
+			
+			return false;
+			
+		}
 		
 		$_SESSION['Username'] = $NewUsername;
 		$_SESSION['EMail'] = $NewEMail;
 		$_SESSION['LeagueID'] = $NewLeagueID;
 		
+		if(isInvalidUsername($NewUsername))
+		{
+			$errorUser = "Username is already taken";
+		}
+		else if (!isMatchingPassword($NewPassword, $NewPassword2))
+		{
+			$errorPassword = "Passwords do not match";
+		}
+		else {
 		$dbc->query($NewUserQuery); 
 		if($dbc->error) { echo $dbc->error;}
 		else 
 		{
-			echo "<a href='memberLogin.html'><div id='Nextstep'>Thanks for registering, You can now login!</div></a>";
+			echo '<script>window.location.href = "memberLogin.php";</script>';
 			 //header("Location: LeagueCreation.php");  
 		}
-		
+		}
 	 } 
 	 
 									
@@ -168,11 +200,16 @@
 											<p>
 												 <form action="register.php" method="post" style="">  
 													<span>Username</span><br>
-													<input type="text" name="Username" id="username" required><p></p>
+													<input type="text" name="Username" id="username" required>
 													
 													<?php echo $errorUser ?>
+													<br/>
+													<br/>
 													<span>Password</span><br>
-													<input type="password" name="Password" id="Password" required><p></p> 
+													<input type="password" name="Password" id="Password" required>
+													<?php echo $errorPassword ?>
+													<br/>
+													<br/>
 													<span>Password Again</span><br>
 													<input type="password" name="PasswordAgain" id="PasswordAgain" required>
 													<p></p>

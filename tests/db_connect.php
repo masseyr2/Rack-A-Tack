@@ -1,12 +1,12 @@
 <?php
  
- function cleaning($data)
+/* function cleaning($data)
 {
     $data = trim($data);
     $data = htmlentities($data);
     $data = strip_tags($data);
     return $data;
-}
+}*/
 
  
     $db_host = "localhost";
