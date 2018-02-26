@@ -30,7 +30,7 @@ function menu($login)
 									<nav id="nav">
 										<a href="/index.php">Home</a>
 										<a href="/register.php">Join League</a>
-										<a href="/memberLogin.html">Member Login</a>
+										<a href="/memLogin.php">Member Login</a>
 										<a href="/staff.php">Directors</a>
 										<a href="/staff">Staff Login</a>
 										
