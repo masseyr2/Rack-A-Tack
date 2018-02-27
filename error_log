@@ -1,0 +1,317 @@
+[20-Feb-2018 22:28:21 UTC] PHP Warning:  require(/home/rackatac/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php): failed to open stream: No such file or directory in /home/rackatac/vendor/composer/autoload_real.php on line 66
+[20-Feb-2018 22:28:21 UTC] PHP Warning:  require(/home/rackatac/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php): failed to open stream: No such file or directory in /home/rackatac/vendor/composer/autoload_real.php on line 66
+[20-Feb-2018 22:28:21 UTC] PHP Fatal error:  require(): Failed opening required '/home/rackatac/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/rackatac/vendor/composer/autoload_real.php on line 66
+[20-Feb-2018 23:33:49 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/rackatac/tests/LoginTest.php on line 12
+[21-Feb-2018 00:21:43 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/rackatac/tests/LoginTest.php on line 3
+[21-Feb-2018 00:21:43 UTC] PHP Warning:  include(db_connect.php): failed to open stream: No such file or directory in /home/rackatac/tests/LoginTest.php on line 3
+[21-Feb-2018 00:21:43 UTC] PHP Warning:  include(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/rackatac/tests/LoginTest.php on line 3
+[21-Feb-2018 01:10:26 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 01:10:36 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 01:10:57 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 01:12:28 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 01:19:35 UTC] PHP Warning:  include(..\src\Regist.php): failed to open stream: No such file or directory in /home/rackatac/tests/RegistTest.php on line 4
+[21-Feb-2018 01:19:35 UTC] PHP Warning:  include(..\src\Regist.php): failed to open stream: No such file or directory in /home/rackatac/tests/RegistTest.php on line 4
+[21-Feb-2018 01:19:35 UTC] PHP Warning:  include(): Failed opening '..\src\Regist.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/rackatac/tests/RegistTest.php on line 4
+[21-Feb-2018 01:25:20 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/rackatac/phpunit.xml on line 1
+[21-Feb-2018 01:44:26 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/RegistTest' could not be found in '/home/rackatac/public_html/reports/report.html'. in phar:///home/rackatac/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:102
+Stack trace:
+#0 phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php(130): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/RegistTes...', '/home/rackatac/...')
+#1 phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php(73): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/RegistTes...', '/home/rackatac/...')
+#2 phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php(169): PHPUnit\Runner\BaseTestRunner->getTest('tests/RegistTes...', '/home/rackatac/...', Array)
+#3 phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php(148): PHPUnit\TextUI\Command->run(Array, true)
+#4 /home/rackatac/phpunit(568): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///home/rackatac/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 102
+[21-Feb-2018 01:47:50 UTC] PHP Fatal error:  Uncaught PHPUnit\Runner\Exception: Class 'tests/RegistTest' could not be found in '/home/rackatac/public_html/reports/report.html'. in phar:///home/rackatac/phpunit/phpunit/Runner/StandardTestSuiteLoader.php:102
+Stack trace:
+#0 phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php(130): PHPUnit\Runner\StandardTestSuiteLoader->load('tests/RegistTes...', '/home/rackatac/...')
+#1 phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php(73): PHPUnit\Runner\BaseTestRunner->loadSuiteClass('tests/RegistTes...', '/home/rackatac/...')
+#2 phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php(169): PHPUnit\Runner\BaseTestRunner->getTest('tests/RegistTes...', '/home/rackatac/...', Array)
+#3 phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php(148): PHPUnit\TextUI\Command->run(Array, true)
+#4 /home/rackatac/phpunit(568): PHPUnit\TextUI\Command::main()
+#5 {main}
+  thrown in phar:///home/rackatac/phpunit/phpunit/Runner/StandardTestSuiteLoader.php on line 102
+[21-Feb-2018 02:44:10 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 02:44:19 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 02:45:52 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 02:46:27 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 02:51:48 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/src/db_connect.php:3) in /home/rackatac/src/db_connect.php on line 9
+[21-Feb-2018 02:52:00 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 02:52:08 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 17:36:35 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 17:36:35 UTC] PHP Stack trace:
+[21-Feb-2018 17:36:35 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 17:36:35 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 17:36:35 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 17:36:35 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 17:36:35 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 17:36:35 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 17:36:35 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 17:36:35 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 17:36:35 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 17:36:35 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 17:36:35 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 17:43:44 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 17:43:44 UTC] PHP Stack trace:
+[21-Feb-2018 17:43:44 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 17:43:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 17:43:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 17:43:44 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 17:43:44 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 17:43:44 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 17:43:44 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 17:43:44 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 17:43:44 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 17:43:44 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 17:43:44 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 17:43:56 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 17:43:56 UTC] PHP Stack trace:
+[21-Feb-2018 17:43:56 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 17:43:56 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 17:43:56 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 17:43:56 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:169
+[21-Feb-2018 17:43:56 UTC] PHP   5. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php:65
+[21-Feb-2018 17:43:56 UTC] PHP   6. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 17:43:56 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 17:43:56 UTC] PHP   8. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 17:43:56 UTC] PHP   9. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 17:44:11 UTC] PHP Fatal error:  Cannot declare class Register, because the name is already in use in /home/rackatac/src/Register.php on line 2
+[21-Feb-2018 17:44:11 UTC] PHP Stack trace:
+[21-Feb-2018 17:44:11 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 17:44:11 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 17:44:11 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 17:44:11 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:195
+[21-Feb-2018 17:44:11 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() phar:///home/rackatac/phpunit/phpunit/TextUI/TestRunner.php:546
+[21-Feb-2018 17:44:11 UTC] PHP   6. LoginTest->run() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:755
+[21-Feb-2018 17:44:11 UTC] PHP   7. PHPUnit\Framework\TestResult->run() phar:///home/rackatac/phpunit/phpunit/Framework/TestCase.php:894
+[21-Feb-2018 17:44:11 UTC] PHP   8. SebastianBergmann\CodeCoverage\CodeCoverage->start() phar:///home/rackatac/phpunit/phpunit/Framework/TestResult.php:659
+[21-Feb-2018 17:44:11 UTC] PHP   9. SebastianBergmann\CodeCoverage\CodeCoverage->initializeData() phar:///home/rackatac/phpunit/php-code-coverage/CodeCoverage.php:269
+[21-Feb-2018 17:44:11 UTC] PHP  10. include_once() phar:///home/rackatac/phpunit/php-code-coverage/CodeCoverage.php:1122
+[21-Feb-2018 17:48:22 UTC] PHP Fatal error:  Cannot declare class Register, because the name is already in use in /home/rackatac/src/Register.php on line 2
+[21-Feb-2018 17:48:22 UTC] PHP Stack trace:
+[21-Feb-2018 17:48:22 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 17:48:22 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 17:48:22 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 17:48:22 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:195
+[21-Feb-2018 17:48:22 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() phar:///home/rackatac/phpunit/phpunit/TextUI/TestRunner.php:546
+[21-Feb-2018 17:48:22 UTC] PHP   6. LoginTest->run() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:755
+[21-Feb-2018 17:48:22 UTC] PHP   7. PHPUnit\Framework\TestResult->run() phar:///home/rackatac/phpunit/phpunit/Framework/TestCase.php:894
+[21-Feb-2018 17:48:22 UTC] PHP   8. SebastianBergmann\CodeCoverage\CodeCoverage->start() phar:///home/rackatac/phpunit/phpunit/Framework/TestResult.php:659
+[21-Feb-2018 17:48:22 UTC] PHP   9. SebastianBergmann\CodeCoverage\CodeCoverage->initializeData() phar:///home/rackatac/phpunit/php-code-coverage/CodeCoverage.php:269
+[21-Feb-2018 17:48:22 UTC] PHP  10. include_once() phar:///home/rackatac/phpunit/php-code-coverage/CodeCoverage.php:1122
+[21-Feb-2018 17:49:56 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 17:49:56 UTC] PHP Stack trace:
+[21-Feb-2018 17:49:56 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 17:49:56 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 17:49:56 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 17:49:56 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 17:49:56 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 17:49:56 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 17:49:56 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 17:49:56 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 17:49:56 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 17:49:56 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 17:49:56 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:04:30 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:04:30 UTC] PHP Stack trace:
+[21-Feb-2018 18:04:30 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:04:30 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:04:30 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:04:30 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:04:30 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:04:30 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:04:30 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:04:30 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:04:30 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:04:30 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:04:30 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:04:47 UTC] PHP Fatal error:  Cannot declare class Register, because the name is already in use in /home/rackatac/src/Register.php on line 2
+[21-Feb-2018 18:04:47 UTC] PHP Stack trace:
+[21-Feb-2018 18:04:47 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:04:47 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:04:47 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:04:47 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:195
+[21-Feb-2018 18:04:47 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() phar:///home/rackatac/phpunit/phpunit/TextUI/TestRunner.php:546
+[21-Feb-2018 18:04:47 UTC] PHP   6. LoginTest->run() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:755
+[21-Feb-2018 18:04:47 UTC] PHP   7. PHPUnit\Framework\TestResult->run() phar:///home/rackatac/phpunit/phpunit/Framework/TestCase.php:894
+[21-Feb-2018 18:04:47 UTC] PHP   8. SebastianBergmann\CodeCoverage\CodeCoverage->start() phar:///home/rackatac/phpunit/phpunit/Framework/TestResult.php:659
+[21-Feb-2018 18:04:47 UTC] PHP   9. SebastianBergmann\CodeCoverage\CodeCoverage->initializeData() phar:///home/rackatac/phpunit/php-code-coverage/CodeCoverage.php:269
+[21-Feb-2018 18:04:47 UTC] PHP  10. include_once() phar:///home/rackatac/phpunit/php-code-coverage/CodeCoverage.php:1122
+[21-Feb-2018 18:05:25 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:05:25 UTC] PHP Stack trace:
+[21-Feb-2018 18:05:25 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:05:25 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:05:25 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:05:25 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:169
+[21-Feb-2018 18:05:25 UTC] PHP   5. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php:65
+[21-Feb-2018 18:05:25 UTC] PHP   6. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:05:25 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:05:25 UTC] PHP   8. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:05:25 UTC] PHP   9. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:05:32 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:05:32 UTC] PHP Stack trace:
+[21-Feb-2018 18:05:32 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:05:32 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:05:32 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:05:32 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:05:32 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:05:32 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:05:32 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:05:32 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:05:32 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:05:32 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:05:32 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:07:05 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:07:05 UTC] PHP Stack trace:
+[21-Feb-2018 18:07:05 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:07:05 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:07:05 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:07:05 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:07:05 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:07:05 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:07:05 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:07:05 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:07:05 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:07:05 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:07:05 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:07:50 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:07:50 UTC] PHP Stack trace:
+[21-Feb-2018 18:07:50 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:07:50 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:07:50 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:07:50 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:07:50 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:07:50 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:07:50 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:07:50 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:07:50 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:07:50 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:07:50 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:08:38 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:08:38 UTC] PHP Stack trace:
+[21-Feb-2018 18:08:38 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:08:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:08:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:08:38 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:08:38 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:08:38 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:08:38 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:08:38 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:08:38 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:08:38 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:08:38 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:09:04 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:09:04 UTC] PHP Stack trace:
+[21-Feb-2018 18:09:04 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:09:04 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:09:04 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:09:04 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:09:04 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:09:04 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:09:04 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:09:04 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:09:04 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:09:04 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:09:04 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:15:59 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:15:59 UTC] PHP Stack trace:
+[21-Feb-2018 18:15:59 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:15:59 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:15:59 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:15:59 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:15:59 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:15:59 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:15:59 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:15:59 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:15:59 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:15:59 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:15:59 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:16:07 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:16:07 UTC] PHP Stack trace:
+[21-Feb-2018 18:16:07 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:16:07 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:16:07 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:16:07 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:16:07 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:16:07 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:16:07 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:16:07 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:16:07 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:16:07 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:16:07 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:25:18 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:25:18 UTC] PHP Stack trace:
+[21-Feb-2018 18:25:18 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:25:18 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:25:18 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:25:18 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:25:18 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:25:18 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:25:18 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:25:18 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:25:18 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:25:18 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:25:18 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 18:26:55 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 18:26:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:26:55 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 18:26:55 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 18:26:55 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 18:26:55 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 18:26:55 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 18:26:55 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 18:26:55 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 18:26:55 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 18:26:55 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 18:26:55 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 18:26:55 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 21:09:00 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 21:09:00 UTC] PHP Stack trace:
+[21-Feb-2018 21:09:00 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 21:09:00 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 21:09:00 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 21:09:00 UTC] PHP   4. PHPUnit\TextUI\TestRunner->getTest() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:169
+[21-Feb-2018 21:09:00 UTC] PHP   5. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Runner/BaseTestRunner.php:65
+[21-Feb-2018 21:09:00 UTC] PHP   6. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 21:09:00 UTC] PHP   7. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 21:09:00 UTC] PHP   8. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 21:09:00 UTC] PHP   9. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 23:36:31 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 23:36:31 UTC] PHP Stack trace:
+[21-Feb-2018 23:36:31 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 23:36:31 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 23:36:31 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 23:36:31 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 23:36:31 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 23:36:31 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 23:36:31 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 23:36:31 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 23:36:31 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 23:36:31 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 23:36:31 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 23:40:37 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 23:40:37 UTC] PHP Stack trace:
+[21-Feb-2018 23:40:37 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 23:40:37 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 23:40:37 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 23:40:37 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 23:40:37 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 23:40:37 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 23:40:37 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 23:40:37 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 23:40:37 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 23:40:37 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 23:40:37 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
+[21-Feb-2018 23:45:26 UTC] PHP Fatal error:  Cannot redeclare cleaning() (previously declared in /home/rackatac/tests/db_connect.php:3) in /home/rackatac/tests/db_connect.php on line 9
+[21-Feb-2018 23:45:26 UTC] PHP Stack trace:
+[21-Feb-2018 23:45:26 UTC] PHP   1. {main}() /home/rackatac/phpunit:0
+[21-Feb-2018 23:45:26 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/rackatac/phpunit:568
+[21-Feb-2018 23:45:26 UTC] PHP   3. PHPUnit\TextUI\Command->run() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:148
+[21-Feb-2018 23:45:26 UTC] PHP   4. PHPUnit\TextUI\Command->handleArguments() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:159
+[21-Feb-2018 23:45:26 UTC] PHP   5. PHPUnit\Util\Configuration->getTestSuiteConfiguration() phar:///home/rackatac/phpunit/phpunit/TextUI/Command.php:837
+[21-Feb-2018 23:45:26 UTC] PHP   6. PHPUnit\Util\Configuration->getTestSuite() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:908
+[21-Feb-2018 23:45:26 UTC] PHP   7. PHPUnit\Framework\TestSuite->addTestFiles() phar:///home/rackatac/phpunit/phpunit/Util/Configuration.php:1012
+[21-Feb-2018 23:45:26 UTC] PHP   8. PHPUnit\Framework\TestSuite->addTestFile() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:403
+[21-Feb-2018 23:45:26 UTC] PHP   9. PHPUnit\Util\Fileloader::checkAndLoad() phar:///home/rackatac/phpunit/phpunit/Framework/TestSuite.php:325
+[21-Feb-2018 23:45:26 UTC] PHP  10. PHPUnit\Util\Fileloader::load() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:48
+[21-Feb-2018 23:45:26 UTC] PHP  11. include_once() phar:///home/rackatac/phpunit/phpunit/Util/Fileloader.php:64
