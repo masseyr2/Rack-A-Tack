@@ -15,7 +15,7 @@
 		$NewPassword = md5(cleaning($_POST['Password']));
 		$NewLeagueID = $LeagueID;
 		$NewPassword2 = md5(cleaning($_POST['PasswordAgain']));
-		$NewEMail = cleaning($_POST['EMail']);
+		$NewEMail = cleaning($_POST['email']);
 		$NewUserQuery = "INSERT INTO Users (LeagueID, Username, Password, EMail) VALUES($NewLeagueID ,'$NewUsername','$NewPassword','$NewEMail')";
 		
 		function isInvalidUsername($tempUsername)
@@ -42,9 +42,7 @@
 			
 		}
 		
-		$_SESSION['Username'] = $NewUsername;
-		$_SESSION['EMail'] = $NewEMail;
-		$_SESSION['LeagueID'] = $NewLeagueID;
+		
 		
 		if(isInvalidUsername($NewUsername))
 		{
@@ -59,7 +57,21 @@
 		if($dbc->error) { echo $dbc->error;}
 		else 
 		{
-			echo '<script>window.location.href = "memberLogin.php";</script>';
+			session_start();
+			$queryCheck = "SELECT * FROM Users WHERE LeagueID = 1 AND Username = '". $NewUsername. "' AND Password = '". $NewPassword."'";
+		
+			$results = $dbc->query($queryCheck);
+			while($row = $results->fetch_array())
+			{
+				$Login_UserID = $row['UserID'];
+				$Login_LeagueID = $row['LeagueID'];
+				$Login_Username = $row['Username'];
+			}
+			$_SESSION["member_logged_in"] = "yes"; 
+			$_SESSION["member_Username"] = $Login_Username;
+			$_SESSION["LeagueID"] = $Login_LeagueID;
+			$_SESSION["member_UserID"] = $Login_UserID;
+			echo '<script>window.location.href = "index.php";</script>';
 			 //header("Location: LeagueCreation.php");  
 		}
 		}

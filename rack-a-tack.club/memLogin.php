@@ -51,7 +51,21 @@
 		
 		else
 		{
-			echo '<script>window.location.href = "memberLogin.php";</script>';
+			session_start();
+			$queryCheck = "SELECT * FROM Users WHERE LeagueID = 1 AND Username = '". $tempUsername. "' AND Password = '". $tempPassword."'";
+		
+			$results = $dbc->query($queryCheck);
+			while($row = $results->fetch_array())
+			{
+				$Login_UserID = $row['UserID'];
+				$Login_LeagueID = $row['LeagueID'];
+				$Login_Username = $row['Username'];
+			}
+			$_SESSION["member_logged_in"] = "yes"; 
+			$_SESSION["member_Username"] = $Login_Username;
+			$_SESSION["LeagueID"] = $Login_LeagueID;
+			$_SESSION["member_UserID"] = $Login_UserID;
+			echo '<script>window.location.href = "index.php";</script>';
 		}
 		}
 			

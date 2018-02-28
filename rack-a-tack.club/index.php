@@ -53,7 +53,7 @@
 									<?php if($_SESSION['member_logged_in'] == "yes")
 									{
 										$banner = "<!-- Banner Copy -->
-										<p>Welcome to Rack-A-Tack <span class='NameLoggedIn'>" . $_SESSION["member_Username"]. "</span> </p>";
+										<p>Welcome to Rack-A-Tack <span class='NameLoggedIn'>". $_SESSION["member_Username"]. "</span> </p>";
 										
 									}
 									else
